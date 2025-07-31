@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Prep Pilot
 
-## Getting Started
+🧠 AI-powered mock interview assistant with real-time feedback and email summaries  
+🎯 Built for the [Convex × Resend Hackathon](https://convex.dev)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 What is Prep Pilot?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Prep Pilot** is an AI-driven mock interview platform designed to help users confidently prepare for job interviews. It delivers dynamic, interactive question-answer sessions that simulate real technical and behavioral interviews.  
+Users receive real-time, personalized feedback powered by AI, and detailed performance summaries are automatically sent via email using **Resend**.  
+All sessions are seamlessly handled and stored using the real-time backend capabilities of **Convex**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- 💬 **AI-Powered Interview Sessions**  
+  Simulated interviews tailored to specific roles, industries, or skill levels.
 
-To learn more about Next.js, take a look at the following resources:
+- 🔍 **Instant Smart Feedback**  
+  Real-time analysis of user responses, including tone, clarity, structure, and relevance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📩 **Personalized Email Reports**  
+  Comprehensive post-interview reports with actionable feedback delivered instantly via Resend.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📊 **Progress Tracking**  
+  Review past sessions and measure growth over time, powered by Convex’s reactive database.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**:  
+  `Next.js` + `TypeScript` + `Tailwind CSS` + `Shadcn UI`
+
+- **Backend & Database**:  
+  [`Convex`](https://convex.dev) — reactive serverless backend for real-time state management
+
+- **Email Service**:  
+  [`Resend`](https://resend.com) — transactional email delivery
+
+- **AI Engine**:  
+  [`Together.ai`](https://www.together.ai) — open-source LLMs for generating questions, evaluating responses, and delivering feedback
+
+---
+
+## 📦 Project Status
+
+**Prep Pilot** is currently in active development as a submission for the **Convex × Resend Hackathon**.  
+A live demo and launch updates will be available soon!
+
+---
+
+## 📬 Contact
+
+Crafted with passion by Israel Olorunfemi  
+Let’s connect: Olorunfemiisrael@gmail.com 
